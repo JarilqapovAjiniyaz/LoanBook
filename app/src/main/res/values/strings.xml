@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My ApplicationDebtBooks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">отмена</string>
+    <string name="title">Добавление</string>
+    <string name="ok">плюс</string>
+    <string name="decline">минус</string>
+    <string name="supporting_text">Supporting text</string>
+    <string name="add">Добавление</string>
+    <string name="accept">OK</string>
+    <string name="itemOne">Погасить всю сумму</string>
+    <string name="itemTwo">Изменить баланс</string>
+    <string name="itemThree">История операций</string>
+    <string name="itemFour">Очистить историю</string>
+    <string name="itemFive">Переименовать</string>
+    <string name="itemSix">Удалить контакт</string>
+</resources>

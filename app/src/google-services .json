@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "46090683919",
+    "project_id": "debtbooks-4c2fa",
+    "storage_bucket": "debtbooks-4c2fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46090683919:android:e3e55bc96ebf90d0e3c57a",
+        "android_client_info": {
+          "package_name": "uz.texnopos.myapplicationdebtbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46090683919-0ie2lkgu3c2lja4lm37uluiln2f2t96o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmbwRv4e2UD9vqRCD1pWkHQ1ntZyILVEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46090683919-0ie2lkgu3c2lja4lm37uluiln2f2t96o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+   android:background="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<TextView
+    android:id="@+id/tvName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginTop="@dimen/margin_standart"
+    android:layout_marginStart="@dimen/margin_standart"
+    android:textSize="@dimen/margin_standart_size"
+    android:textColor="@android:color/black"
+    />
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/margin_standart"
+        android:layout_marginBottom="@dimen/margin_standart"
+        />
+    <ImageView
+        android:id="@+id/moreVert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_standart"
+        android:layout_marginBottom="@dimen/margin_standart"
+        android:layout_marginEnd="@dimen/margin_standart"
+        android:src="@drawable/ic_baseline_more_vert_24"
+        app:tint="@android:color/black"
+        android:padding="8dp"
+
+        />
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/moreVert "
+        android:layout_marginBottom="@dimen/margin_standart"
+
+
+        casfasdasd:textSize="@dimen/margin_standart_size"
+        android:layout_marginEnd="@dimen/margin_standart"
+        android:textStyle="bold"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
